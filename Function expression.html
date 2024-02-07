@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //2. Function Expression
+    
+    let sum = function(){
+        let a = 10;
+        let b = 40;
+        let c = a + b;
+        return c;
+    
+    }
+    
+    let result3 = sum();
+    console.log(result3);
+
+    // example 1
+
+    let sub1 = function(a=10,b=20)
+    {
+        let c = a-b;
+        return c;
+    }
+    let result0=sub1()
+    console.log(result0);
+
+    // example 2
+
+    let sub = function(a=0,b=0)
+    {
+        let c = a-b;
+        return c;
+    }
+    let result=sub(a=10,b=20)
+    console.log(result);
+
+    let result1 = sub(10, 30);
+    console.log("Expression call", result1);
+
+    </script>
+</body>
+</html>
