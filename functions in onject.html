@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let skincare=
+        {
+            toner : "goodvibes",
+            serum : "miniminist",
+            moisturizer : "emolene",
+            sunscreen : function()
+            {
+                let dailybase = {morning:"aqualogica", night:"dermaco", occasinally:"nutregina"};
+                return "skincare:- "+skincare.toner+" "+skincare.serum+" "+dailybase.occasinally;
+            }
+
+
+        }
+        console.log(skincare);
+        console.log(skincare.toner);
+        console.log(skincare.moisturizer);
+        console.log(skincare.serum);
+        console.log(skincare.sunscreen());
+    </script>
+</body>
+</html>
