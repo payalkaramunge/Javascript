@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let skincare=
+        {
+            toner : "goodvibes",
+            serum : "miniminist",
+            moisturizer : "emolene",
+            sunscreen : "aqualogica",
+        }
+        console.log(skincare);
+        console.log(skincare.toner);
+        console.log(skincare.moisturizer);
+        console.log(skincare.serum);
+
+        // CURD OPETATION:-
+        
+        // 1.CREATE OBJECT:-
+
+        // 2.UPDATE OBJECT:-
+        skincare.toner = "pilgrim";
+        // skincare['toner'] = "pilgrim";
+        console.log(skincare.toner);
+
+        // 3.READ OBJECT:-
+
+        // 4.DELETE OBJECT:-
+        delete skincare.serum;
+        delete skincare['serum'];
+        console.log(skincare);
+
+    </script>
+</body>
+</html>

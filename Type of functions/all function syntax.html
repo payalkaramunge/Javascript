@@ -1,0 +1,45 @@
+<script>
+    //1. Function DEclaration
+    //Declaration
+    // Parameters functions
+    
+    // Arguments 
+    console.log("DEclaration" ,doCalculate(30, 40));
+    
+    function doCalculate(a=0,b=0){
+        let c = (a+b);
+        return c;
+    }
+    
+    
+    //2. Function Expression
+    
+    let sum = function(a, b=0){
+        //let a = 10;
+        //let b = 40;
+        let c = a + b;
+        return c;
+    
+    }
+    
+    let result = sum(10, 30);
+    console.log("Expression call", result);
+    
+    let result1 = sum(60);
+    console.log(result1);
+    
+    
+    //3 . arrow function
+    
+    let doSum = (a) => { 
+        if(a >=18 ){
+            return "Valid age";
+        } else {
+        return "inValid age";
+        }
+    };
+    
+    
+    console.log("Arrow call",doSum(10));
+
+    </script>

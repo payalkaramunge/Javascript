@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         // // example 1
+         function doSum()
+         {
+            let a=10;
+            let b=20;
+            let c=a+b;
+            return c;
+         }
+         
+        let result = doSum();
+        console.log(result);
+
+        // example 2
+        function dosum1(a=10,b=20)
+        {
+            let c=a+b;
+            return c;
+        }
+        let result1=dosum1();
+        console.log(result1);
+
+        // example 3
+
+        function dosum2(a=0,b=0)
+        {
+            let c= a+b;
+            return c;
+        }
+        let result2=dosum2(a=10,b=20)
+        console.log(result);
+    </script>
+</body>
+</html>
