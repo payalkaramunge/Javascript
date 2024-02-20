@@ -1,0 +1,45 @@
+<!-- 1. Use JavaScript to display pop up boxes (alert box, an alert box with line breaks, confirm box, prompt box) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function ShowAlert(){
+        //     alert("this is a alert box"); 
+        // }
+        // ShowAlert();
+
+
+        // function ShowAlertWithLineBreakes(){
+        //     alert("this is alert box with line breakes");
+        // }
+        // ShowAlertWithLineBreakes();
+
+
+        // function showpromptbox(){
+        //     var name=prompt("please enter your name,","siddhi");
+        //     if(name!=null){
+        //         alert("hello,"+name);
+        //     }
+        // }
+        // showpromptbox();
+
+
+        function showconfirmbox(){
+            var result = confirm("do you want to proceed");
+            if(result){
+                alert("you clicked ok");
+            }
+            else{
+                alert("you clicked cancal");
+            }
+        }
+        showconfirmbox();
+    </script>
+</body>
+</html>
