@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Test( )
+
+        let regx = /nanded/;
+        let regxNum = /1234567890/;
+        console.log(regx.test("hello nanded"));
+        console.log(regxNum.test("886547"));
+        
+        //exec( )
+
+        console.log(regx.exec("hello nanded nanded"));
+
+        //match( )
+
+        let str = "Nanded"
+        console.log(str.match("regx"));
+
+        //search( )
+
+
+    </script>
+</body>
+</html>
